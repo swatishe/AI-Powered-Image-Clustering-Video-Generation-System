@@ -1,5 +1,6 @@
 """
 Image clustering module using various algorithms
+@author sshende
 """
 
 import numpy as np

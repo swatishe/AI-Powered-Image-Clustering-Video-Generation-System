@@ -1,6 +1,6 @@
 """
 Video generation module for creating slideshows from image clusters
-FIXED VERSION - Resolves green screen and audio issues
+@author sshende
 """
 
 import cv2

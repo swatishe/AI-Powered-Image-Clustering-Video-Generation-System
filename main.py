@@ -1,6 +1,7 @@
 """
 AI-Powered Image Clustering & Video Generation System
 Main execution pipeline
+@author sshende
 """
 
 import os

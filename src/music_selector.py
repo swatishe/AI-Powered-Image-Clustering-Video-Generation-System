@@ -1,5 +1,6 @@
 """
 Algorithmic music selection based on image cluster characteristics
+@author sshende
 """
 
 import os
