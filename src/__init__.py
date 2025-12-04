@@ -1,9 +1,10 @@
 """
 AI-Powered Image Clustering & Video Generation System
+@author sshende
 """
 
 __version__ = "1.0.0"
-__author__ = "AI Video Generator"
+__author__ = "sshende"
 
 from .dataset_handler import DatasetHandler
 from .feature_extractor import FeatureExtractor
