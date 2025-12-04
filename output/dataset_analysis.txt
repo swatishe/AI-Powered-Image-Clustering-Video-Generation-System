@@ -1,0 +1,15 @@
+DATASET ANALYSIS REPORT
+==================================================
+
+Dataset Directory: data/images
+Total Images: 341
+
+Image Dimensions:
+  Average: 512x512
+  Minimum: 512x512
+  Maximum: 512x512
+
+Average File Size: 369.0 KB
+
+Color Formats:
+  RGB: 100 images

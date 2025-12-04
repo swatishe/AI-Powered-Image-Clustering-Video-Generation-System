@@ -1,0 +1,29 @@
+================================================================================
+IMAGE CLUSTERING & VIDEO GENERATION - SUMMARY REPORT
+================================================================================
+
+Dataset Statistics:
+  - Total images: 341
+  - Average dimensions: 512x512
+  - Color formats: {'RGB': 100}
+
+Feature Extraction:
+  - Model: ResNet50 (pre-trained on ImageNet)
+  - Embedding dimensions: 2048
+
+Clustering:
+  - Algorithm: K-Means
+  - Number of clusters: 5
+  - Largest cluster: 1 (91 images)
+
+Video Generation:
+  - Output file: output/videos/cluster_1_slideshow.mp4
+  - Images used: 91
+  - Music selected: music/upbeat.mp3
+  - Cluster characteristics: {'brightness': np.float64(119.82421056959365), 'colorfulness': np.float64(59.48270595415939), 'contrast': np.float64(254.36666666666667), 'saturation': np.float64(8.507914281774449), 'brightness_norm': np.float64(0.4698988649787986), 'colorfulness_norm': np.float64(0.5948270595415939), 'contrast_norm': np.float64(0.9975163398692811), 'saturation_norm': np.float64(0.17015828563548896)}
+
+Output Files:
+  - output/embeddings/embeddings.npy
+  - output/clusters/cluster_assignments.csv
+  - output/videos/cluster_1_slideshow.mp4
+  - output/dataset_analysis.txt
